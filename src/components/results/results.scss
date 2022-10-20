@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+
+    pre {
+        padding: 65px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        white-space: pre-wrap;
+    }
+}
