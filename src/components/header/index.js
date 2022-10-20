@@ -14,7 +14,6 @@ import React from 'react';
 
 //switching to functional
 
-import React from 'react';
 
 function Header() {
   return (
