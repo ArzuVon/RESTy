@@ -27,7 +27,8 @@ function Form(props) {
       history.push(url);
       console.log('history url pushed: ', history);
       let item = JSON.stringify(history);
-      localStorage.setItem('history', item);
+      localStorage.setItem('history', item); //tested and a lil buggy come back to this
+      
     }
 
     // call our callApi function and pass formData - remember the alias 
